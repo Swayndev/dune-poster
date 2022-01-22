@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Cinzel', serif;
+
+}
+
+body {
+    color: black;
+
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.bg {
+    min-height: 100vh;
+    padding: 4em;
+
+    background-image: url("../img/dune-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    color: white;
+
+}
+
+.head1 {
+    font-size: 2em;
+
+    text-align: right;
+
+    align-self: flex-start;
+
+    border: 1px solid black;
+
+}
+
+.head2 {
+    font-size: 3rem;
+
+    align-self: flex-end;
+    margin: 0;
+
+
+
+    border: 1px solid orange;
+}
